@@ -1,0 +1,29 @@
+@use '../variables'
+@use '../mixins'
+
+.projects-container
+    margin-bottom: 1rem
+
+    .projects-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+        a
+            text-decoration: none
+
+        .projects-card
+            @include mixins.center
+            gap: 1rem
+            padding: 1rem
+            border: 1px solid #333
+            width: 100%
+            border-radius: variables.$card-border-radius
+
+            h3
+                color: variables.$text-color
+                font-size: 2rem
+
+            img
+                max-width:600px
+                max-height:400px
