@@ -19,12 +19,12 @@ const technologies = [
     { id: "html", name: "HTML5", icon: <DiHtml5 />, level: "Consigo codificar uma estrutura básica." },
     { id: "css", name: "CSS3", icon: <DiCss3 />, level: "Já criei e copiei estilos para layout de páginas." },
     { id: "js", name: "JavaScript", icon: <DiJsBadge />, level: "Implementei funções para meu site de portfolio e criei diversas aplicações simples." },
-    { id: "node", name: "Node.js", icon: <DiNodejsSmall />, level: "Codifiquei API's de produtos e livros." },
-    { id: "sqlite", name: "SQLite", icon: <DiSqllite />, level: "Desenvolvi um banco de dados para um clone do Busca Pé." },
+    { id: "node", name: "Node.js", icon: <DiNodejsSmall />, level: "Codifiquei REST API's de produtos e livros." },
+    { id: "sqlite", name: "SQLite", icon: <DiSqllite />, level: " Utilizei esta biblioteca como banco de dados para um clone do Busca Pé." },
     { id: "react", name: "React", icon: <DiReact />, level: "Desenvolvi este portofólio e também criei uma pokedex com o framework do react: Next.js." },
     { id: "python", name: "Python", icon: <DiPython style={{ fill: "url(#python-gradient)" }} />, level: "Criei jogos, calculadoras e diversos apps simples." },
     { id: "django", name: "Django", icon: <DiDjango />, level: "Codifiquei um clone do Busca Pé com Frontend e Backend com ajuda do Selenium." },
-    { id: "git", name: "Git", icon: <DiGit />, level: "Consigo criar um controle de versionamento para qualquer tecnologia." },
+    { id: "git", name: "Git", icon: <DiGit />, level: "Tenho experiência com o controle de versionamento utilizando git" },
     { id: "sass", name: "Sass", icon: <DiSass />, level: "Desenvolvi a estilização deste portfólio com esta tecnologia." },
   ];
 
