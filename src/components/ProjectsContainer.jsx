@@ -9,7 +9,7 @@ const projects = [
     {id: "pokenext", name: "Pokedex feito com Next.JS", image: <img src={img1} alt="Pokedex com next.js"></img>, link: "https://github.com/Igor-Ranielli/pokenext"},
     {id: "buscapreco", name: "Clone do BuscaPé feito com Django e Selenium", image: <img src={img2} alt="BuscaPreço com Django E Selenium"></img>, link: "https://github.com/Igor-Ranielli/BuscaPrecoFrontEnd"},
     {id: "calculamedia", name: "Calculadora de Média da UNIP feita com Python", image: <img src={img3} alt="Calculadora de Média UNIP"></img>, link: "https://github.com/Igor-Ranielli/Calcula-Media-Python"},
-    {id: "reactmovieslib", name: "Projeto com React, consumindo a API do TMDB (filmes), utilizando hooks e React Router, criado com Vite.", image: <img src={img4} alt="React Movies Lib"></img>, link: "https://igor-ranielli.github.io/React-Movies-Lib"}
+    {id: "reactmovieslib", name: "Biblioteca de filmes feita com React", image: <img src={img4} alt="React Movies Lib"></img>, link: "https://github.com/Igor-Ranielli/React-Movies-Lib"}
 ]
 
 const ProjectsContainer = () => {
