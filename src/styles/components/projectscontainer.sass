@@ -8,22 +8,36 @@
         display: flex
         flex-wrap: wrap
         gap: 1.5rem
+        margin-left: 12rem
+        margin-right: 12rem
+        margin-top: 0
 
         a
             text-decoration: none
 
         .projects-card
+            backdrop-filter: blur(16px) saturate(180%)
+            background-color: rgba(17, 25, 40, 0.25)
+            border-radius: 12px
+            border: 1px solid rgba(255, 255, 255, 0.125)
+            padding: 38px
+            display: flex
+            flex-direction: column
             @include mixins.center
-            gap: 1rem
-            padding: 1rem
-            border: 1px solid #333
-            width: 100%
-            border-radius: variables.$card-border-radius
 
             h3
+                padding: 8px
+                display: flex
+                flex-direction: column
                 color: variables.$text-color
                 font-size: 2rem
+                margin-bottom: 2rem
+                
 
             img
                 max-width:600px
                 max-height:400px
+                backdrop-filter: blur(16px) saturate(180%)
+                background-color: rgba(17, 25, 40, 0.25)
+                border-radius: 12px
+                border: 1px solid rgba(255, 255, 255, 0.125)

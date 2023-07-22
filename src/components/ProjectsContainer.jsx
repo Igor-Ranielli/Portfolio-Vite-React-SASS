@@ -4,12 +4,14 @@ import img1 from '../img/Projeto 1.png'
 import img2 from '../img/Projeto 2.png'
 import img3 from '../img/Projeto 3.png'
 import img4 from '../img/Projeto 4.png'
+import img5 from '../img/Projeto 5.png'
 
 const projects = [
-    {id: "pokenext", name: "Pokedex feito com Next.JS", image: <img src={img1} alt="Pokedex com next.js"></img>, link: "https://github.com/Igor-Ranielli/pokenext"},
-    {id: "buscapreco", name: "Clone do BuscaPé feito com Django e Selenium", image: <img src={img2} alt="BuscaPreço com Django E Selenium"></img>, link: "https://github.com/Igor-Ranielli/BuscaPrecoFrontEnd"},
-    {id: "calculamedia", name: "Calculadora de Média da UNIP feita com Python", image: <img src={img3} alt="Calculadora de Média UNIP"></img>, link: "https://github.com/Igor-Ranielli/Calcula-Media-Python"},
-    {id: "reactmovieslib", name: "Biblioteca de filmes feita com React", image: <img src={img4} alt="React Movies Lib"></img>, link: "https://github.com/Igor-Ranielli/React-Movies-Lib"}
+    {id: "pokenext", name: "Pokedex - Next.JS", image: <img src={img1} alt="Pokedex com next.js"></img>, link: "https://github.com/Igor-Ranielli/pokenext"},
+    {id: "buscapreco", name: "Clone do BuscaPé - Django e Selenium", image: <img src={img2} alt="BuscaPreço com Django E Selenium"></img>, link: "https://github.com/Igor-Ranielli/BuscaPrecoFrontEnd"},
+    {id: "calculamedia", name: "Calculadora de Média da UNIP - Python", image: <img src={img3} alt="Calculadora de Média UNIP"></img>, link: "https://github.com/Igor-Ranielli/Calcula-Media-Python"},
+    {id: "reactmovieslib", name: "Biblioteca de filmes - React", image: <img src={img4} alt="React Movies Lib"></img>, link: "https://github.com/Igor-Ranielli/React-Movies-Lib"},
+    {id: "reactquiz", name: "Quiz de perguntas - React", image: <img src={img5} alt="React Quiz"></img>, link: "https://github.com/Igor-Ranielli/React-Quiz"}
 ]
 
 const ProjectsContainer = () => {
@@ -29,7 +31,7 @@ const ProjectsContainer = () => {
             </div>
             <br/>
             <a href="https://github.com/Igor-Ranielli?tab=repositories" className="btn">
-                    Outros projetos
+            Outros projetos
             </a>
             
     </section>

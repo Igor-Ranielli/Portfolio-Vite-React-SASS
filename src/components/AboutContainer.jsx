@@ -6,7 +6,7 @@ const AboutContainer = () => {
                 Cursando atualmente Análise e Desenvolvimento de Sistemas. Estou aprendendo muita coisa sobre engenharia de software,
                 lógica de programação, banco de dados e estudando as linguagens Python, C, C#, Java e Javascript. Tenho conhecimento na
                 construção de API's utilizando NodeJS e já montei aplicações front end e back end com Django e selenium. Meu porfolio foi
-                desenvolvido com integração entre React e SASS por meio do vite.
+                desenvolvido com integração entre React e SASS por meio do vite e já desenvolvi vários projetos com React.
             </p>
         </section>
     );

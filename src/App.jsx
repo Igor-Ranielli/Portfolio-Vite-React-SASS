@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div id="portfolio">
+      <div className="nome"></div>
       <h1>Igor Ranielli</h1>
       <Sidebar />
       <MainContent/>
