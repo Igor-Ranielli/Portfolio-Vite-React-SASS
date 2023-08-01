@@ -9,10 +9,8 @@
     align-items: center
     flex-direction: column
     text-align: center
-    position: absolute
-    padding: 3rem 6rem
-    top: 18rem
-    left: 1rem
+    position: relative
+    padding: 3rem 0
 
     img
         height: 16rem
@@ -20,7 +18,7 @@
         border-radius: variables.$container-border-radius
         position: absolute
         top: -3rem
-        
+
     .title
         color: variables.$text-color-secondary
         background-color: variables.$bg-color-secondary
@@ -28,6 +26,5 @@
         margin-top: 12rem
         padding: .8rem 1.2rem
 
-    .btn 
+    .btn
         @include mixins.btn
-        
