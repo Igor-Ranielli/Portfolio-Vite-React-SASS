@@ -8,7 +8,8 @@ import {
     DiPython,
     DiDjango,
     DiGit,
-    DiSass
+    DiSass,
+    DiPhp
 } from 'react-icons/di'
 
 import SvgPainter from './SvgPainter';
@@ -26,6 +27,7 @@ const technologies = [
     { id: "django", name: "Django", icon: <DiDjango />, level: "Codifiquei um clone do Busca Pé com Frontend e Backend com ajuda do Selenium." },
     { id: "git", name: "Git", icon: <DiGit />, level: "Tenho experiência com o controle de versionamento utilizando git" },
     { id: "sass", name: "Sass", icon: <DiSass />, level: "Desenvolvi a estilização deste portfólio com esta tecnologia." },
+    { id: "php", name: "Php", icon: <DiPhp />, level: "Desenvolvi um sistema de login com cadastro, edição e exclusão dos usuários." },
   ];
 
 const TechnologiesContainer = () => {
