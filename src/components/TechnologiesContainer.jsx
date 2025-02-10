@@ -17,17 +17,17 @@ import SvgPainter from './SvgPainter';
 import '../styles/components/technologiescontainer.sass'
 
 const technologies = [
-    { id: "html", name: "HTML5", icon: <DiHtml5 />, level: "Consigo codificar uma estrutura básica." },
-    { id: "css", name: "CSS3", icon: <DiCss3 />, level: "Já criei e copiei estilos para layout de páginas." },
-    { id: "js", name: "JavaScript", icon: <DiJsBadge />, level: "Implementei funções para meu site de portfolio e criei diversas aplicações simples." },
-    { id: "node", name: "Node.js", icon: <DiNodejsSmall />, level: "Codifiquei REST API's de produtos e livros." },
-    { id: "sqlite", name: "SQLite", icon: <DiSqllite />, level: " Utilizei esta biblioteca como banco de dados para um clone do Busca Pé." },
-    { id: "react", name: "React", icon: <DiReact />, level: "Desenvolvi este portofólio e também criei uma pokedex com o framework do react: Next.js." },
-    { id: "python", name: "Python", icon: <DiPython style={{ fill: "url(#python-gradient)" }} />, level: "Criei jogos, calculadoras e diversos apps simples." },
-    { id: "django", name: "Django", icon: <DiDjango />, level: "Codifiquei um clone do Busca Pé com Frontend e Backend com ajuda do Selenium." },
-    { id: "git", name: "Git", icon: <DiGit />, level: "Tenho experiência com o controle de versionamento utilizando git" },
-    { id: "sass", name: "Sass", icon: <DiSass />, level: "Desenvolvi a estilização deste portfólio com esta tecnologia." },
-    { id: "php", name: "Php", icon: <DiPhp />, level: "Desenvolvi um sistema de login com cadastro, edição e exclusão dos usuários." },
+    { id: "html", name: "HTML5", icon: <DiHtml5 />, level: "Capaz de estruturar páginas web semanticamente bem organizadas." },
+    { id: "css", name: "CSS3", icon: <DiCss3 />, level: "Experiência na criação e personalização de layouts responsivos e estilização avançada." },
+    { id: "js", name: "JavaScript", icon: <DiJsBadge />, level: "Desenvolvi funcionalidades interativas para meu portfólio e diversas aplicações web." },
+    { id: "node", name: "Node.js", icon: <DiNodejsSmall />, level: "Criação de APIs RESTful para gerenciamento de produtos e livros." },
+    { id: "sqlite", name: "SQLite", icon: <DiSqllite />, level: "Utilizado como banco de dados para um projeto de comparação de preços semelhante ao BuscaPé. Também uso no meu emprego atual para criação, edição e exclusão de cadastros para medições em segurança do trabalho." },
+    { id: "react", name: "React", icon: <DiReact />, level: "Desenvolvi este portfólio e uma Pokédex interativa utilizando Next.js." },
+    { id: "python", name: "Python", icon: <DiPython style={{ fill: "url(#python-gradient)" }} />, level: "Desenvolvimento de interfaces para comunicação com dispositivos eletrônicos, como dosímetros acústicos e termômetros de globo, incluindo leitura de dados via serial, HID, wifi e processamento de informações."  },
+    { id: "django", name: "Django", icon: <DiDjango />, level: "Desenvolvi um sistema completo inspirado no BuscaPé, integrando frontend e backend, com automação via Selenium." },
+    { id: "git", name: "Git", icon: <DiGit />, level: "Hábil no controle de versionamento, colaboração em equipe e gerenciamento de branches." },
+    { id: "sass", name: "Sass", icon: <DiSass />, level: "Utilizado para estilizar este portfólio, otimizando a organização e reutilização de estilos." },
+    { id: "php", name: "Php", icon: <DiPhp />, level: "Desenvolvi um sistema de autenticação com cadastro, edição e exclusão de usuários." }
   ];
 
 const TechnologiesContainer = () => {
