@@ -1,18 +1,46 @@
 @use '../variables'
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap')
 
-
 #portfolio
   display: flex
   flex-wrap: wrap
   padding: 3rem
   gap: 3rem
-
+  
   h1
     width: 100%
     font-size: 4rem
     font-weight: 700
-    color: #dddbe2ff
+    background: linear-gradient(135deg, #fff 0%, #808080 100%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    background-clip: text
     font-family: 'Poppins', sans-serif
     margin-bottom: 2.5rem
     letter-spacing: -0.04em
+    position: relative
+    
+    &::after
+      content: ''
+      position: absolute
+      bottom: -10px
+      left: 0
+      width: 0
+      height: 3px
+      background: linear-gradient(90deg, #fff, #808080)
+      animation: underline 10s ease-in-out infinite
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5)
+
+@keyframes underline
+  0%, 100%
+    width: 0
+    opacity: 1
+  40%
+    width: 100%
+    opacity: 1
+  60%
+    width: 100%
+    opacity: 0.7
+  80%
+    width: 100%
+    opacity: 1
