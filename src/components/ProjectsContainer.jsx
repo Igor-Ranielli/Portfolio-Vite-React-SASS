@@ -10,10 +10,10 @@ import img6 from '../img/Projeto 6.png'
 const projects = [
     {id: "pokenext", name: "Pokedex - Next.JS", image: <img src={img1} alt="Pokedex com next.js"></img>, link: "https://github.com/Igor-Ranielli/pokenext"},
     {id: "buscapreco", name: "Clone do BuscaPé - Django e Selenium", image: <img src={img2} alt="BuscaPreço com Django E Selenium"></img>, link: "https://github.com/Igor-Ranielli/BuscaPrecoFrontEnd"},
-    {id: "calculamedia", name: "Calculadora de Média da UNIP - Python", image: <img src={img3} alt="Calculadora de Média UNIP"></img>, link: "https://github.com/Igor-Ranielli/Calcula-Media-Python"},
+    {id: "ntview", name: "NT View (Relatórios, gráficos e manipulação de dados.) - Python", image: <img src={img3} alt="NT View"></img>, link: "https://github.com/Igor-Ranielli/Interface-Software-Incon"},
     {id: "reactmovieslib", name: "Biblioteca de filmes - React", image: <img src={img4} alt="React Movies Lib"></img>, link: "https://github.com/Igor-Ranielli/React-Movies-Lib"},
     {id: "reactquiz", name: "Quiz de perguntas - React", image: <img src={img5} alt="React Quiz"></img>, link: "https://github.com/Igor-Ranielli/React-Quiz"},
-    {id: "loginphp", name: "Sistema CRUD de Login - Php", image: <img src={img6} alt="Login PHP"></img>, link: "https://github.com/Igor-Ranielli/Sistema-de-Login-PHP"}
+    {id: "dashboard", name: "Monitoramento de Sensores (Relatórios, gráficos e monitoramento em tempo real)", image: <img src={img6} alt="Monitoramento Sensores"></img>, link: "https://github.com/Igor-Ranielli/Dashboard-Sensores-Temperatura-INCON"}
 ]
 
 const ProjectsContainer = () => {
